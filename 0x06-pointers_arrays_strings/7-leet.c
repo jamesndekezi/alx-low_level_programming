@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
-
  *leet - encodes a string to leet
-
  *
-
  *@s:input
-
  *
-
  *Return:pointer s
-
  *
-
  */
 
 char *leet(char *s)
