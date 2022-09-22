@@ -1,48 +1,58 @@
 #include "main.h"
 
+
+
 /**
 
- *rot13 - encode to rot13
+ * rot13 - caesers cipher
+
+ * @s: pointer to an array of words
 
  *
 
- *@s:input
-
- *
-
- *Return:s
-
- *
+ * Return: s
 
  */
+
+
 
 char *rot13(char *s)
 
 {
 
-	int i, j;
+	int a, b;
 
 
 
-	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-
-	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char test[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 
 
-	for (i = 0; s[i] != '\0'; i++)
+	char res[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+
+
+	for (a = 0; s[a] != '\0'; a++)
+
+
 
 	{
 
-		for (j = 0; j < 52; j++)
+		for (b = 0; test[b] != '\0'; b++)
+
+
 
 		{
 
-			if (s[i] == alpha[j])
+			if (s[a] == test[b])
+
+
 
 			{
 
-				s[i] = rot[j];
+				s[a] = res[b];
+
+
 
 				break;
 
