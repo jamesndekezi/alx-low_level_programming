@@ -1,28 +1,24 @@
 #include "main.h"
+
 /**
  * _strlen - return length of a string
  *
  * @s: char type
  * Return:  length of string
  */
+
 int _strlen(char *s)
 
 {
 
 	int a;
 
-
-
 	for (a = 0; s[a] != '\0'; a++)
-
 	{
-
-
 
 	}
 
 	return (a);
-
 }
 
 /**
@@ -33,7 +29,8 @@ int _strlen(char *s)
  * @src: source of string
  *
  * Return: dest
- */
+*/
+
 char *_strcat(char *dest, char *src)
 
 {
@@ -42,24 +39,12 @@ char *_strcat(char *dest, char *src)
 
 	int a;
 
-
-
 	dest_len = _strlen(dest);
-
-
 
 	for (a = 0 ; src[a] != '\0' ; a++)
 
 		dest[dest_len + a] = src[a];
 
-
-
 	dest[dest_len + a] = '\0';
-
-
-
 	return (dest);
-
-
-
 }
