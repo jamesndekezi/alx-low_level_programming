@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
-
  *string_toupper - characters to uppercase
-
  *
-
  *@s:input
-
  *Return:pointer of string
-
  */
 
 char *string_toupper(char *s)
