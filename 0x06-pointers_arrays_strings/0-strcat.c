@@ -1,21 +1,10 @@
 #include "main.h"
-
-
-
 /**
-
  * _strlen - return length of a string
-
  *
-
  * @s: char type
-
  * Return:  length of string
-
  */
-
-
-
 int _strlen(char *s)
 
 {
@@ -37,25 +26,14 @@ int _strlen(char *s)
 }
 
 /**
-
  * _strcat - function to concatnate strings
-
  *
-
  * @dest: destination for concatnation
-
  *
-
  * @src: source of string
-
  *
-
  * Return: dest
-
  */
-
-
-
 char *_strcat(char *dest, char *src)
 
 {
