@@ -1,21 +1,13 @@
 #include "main.h"
 
 /**
-
  *_strncat - concantenates two strings
-
  *
-
  *@dest:destination
-
  *@src:source
-
  *@n:no. of bytes
-
  *
-
  *Return:pointer to dest
-
  */
 
 char *_strncat(char *dest, char *src, int n)
