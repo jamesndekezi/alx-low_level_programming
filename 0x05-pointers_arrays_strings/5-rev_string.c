@@ -3,12 +3,9 @@
 /**
  * _strlen - returns the length of the string -1
  * @s: the string to get the length
- *
  * Return: lenght of the string
  */
-
 int _strlen(char *s)
-
 {
 	int counter = 0;
 
@@ -17,26 +14,22 @@ int _strlen(char *s)
 	while (s[a] != '\0')
 
 	{
-
 		++counter;
 		++a;
 	}
 
 	--counter;
-
 	return (counter);
 }
 
 /**
  * rev_string - prints a string in reverse order
  * @s: the string to count down from
- *
  * Description: Reverses the string in memory
  * Return: void
  */
 
 void rev_string(char *s)
-
 {
 
 	int b, c;
@@ -48,7 +41,7 @@ void rev_string(char *s)
 	{
 		holder = s[b];
 		s[b] = s[c];
-		s[c] = holder;
+		s[s] = holder;
 		c--;
 		b++;
 
