@@ -1,17 +1,11 @@
 #include "main.h"
 
 /**
-
  *cap_string - capitalizes each word of a string
-
  *
-
  *@s:pointer to char params
-
  *
-
  *Return:*s
-
  */
 
 char *cap_string(char *s)
