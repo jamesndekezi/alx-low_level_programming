@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -E $SCFILE -O 
+
+gcc -E $CFILE > c
